@@ -1,4 +1,4 @@
-package dto;
+package retrofit.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -14,4 +14,4 @@ public class ProductDto {
     private String title;
     private Long price;
     private String categoryTitle;
-}//
+}

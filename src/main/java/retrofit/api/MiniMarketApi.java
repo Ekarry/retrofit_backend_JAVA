@@ -1,7 +1,7 @@
-package api;
+package retrofit.api;
 
 import okhttp3.ResponseBody;
-import dto.ProductDto;
+import retrofit.dto.ProductDto;
 import retrofit2.Call;
 import retrofit2.http.*;
 
@@ -23,5 +23,5 @@ public interface MiniMarketApi {
 
     @DELETE("/market/api/v1/products/{id}")
     Call<ResponseBody> deleteProduct(@Path("id") long id);
-//
+
 }

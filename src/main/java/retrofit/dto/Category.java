@@ -1,4 +1,4 @@
-package dto;
+package retrofit.dto;
 
 import lombok.Getter;
 
@@ -15,5 +15,5 @@ public enum Category {
         this.id = id;
         this.title = title;
     }
-//
+
 }

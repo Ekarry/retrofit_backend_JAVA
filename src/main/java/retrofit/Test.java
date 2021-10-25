@@ -1,6 +1,8 @@
-import api.MiniMarketApi;
-import dto.ProductDto;
-import utils.RetrofitGetter;
+package retrofit;
+
+import retrofit.api.MiniMarketApi;
+import retrofit.dto.ProductDto;
+import retrofit.utils.RetrofitGetter;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
@@ -8,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 
 public class Test {
-//
+
     public static void main(String[] args) throws IOException {
         RetrofitGetter getter = new RetrofitGetter();
 

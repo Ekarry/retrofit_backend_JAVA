@@ -1,3 +1,5 @@
+package myBatis;
+
 import db.dao.CategoriesMapper;
 import db.dao.ProductsMapper;
 import db.model.Categories;

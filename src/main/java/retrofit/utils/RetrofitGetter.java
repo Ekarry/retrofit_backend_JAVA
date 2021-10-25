@@ -1,9 +1,10 @@
-package utils;
+package retrofit.utils;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.jackson.JacksonConverterFactory;
+import utils.PropertyScanner;
 
 import java.io.IOException;
 
@@ -32,4 +33,5 @@ public class RetrofitGetter {
                 .client(client)
                 .build();
     }
+
 }
