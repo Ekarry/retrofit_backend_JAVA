@@ -1,16 +1,18 @@
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import api.MiniMarketApi;
-import dto.Category;
-import dto.ProductDto;
-import utils.RetrofitGetter;
+import retrofit.api.MiniMarketApi;
+import retrofit.dto.Category;
+import retrofit.dto.ProductDto;
+import retrofit.utils.RetrofitGetter;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 
 import java.io.IOException;
+
 import static org.junit.Assert.assertEquals;
 
 public class ApiTest {
-//
+
 
     private final MiniMarketApi api;
 
@@ -20,6 +22,7 @@ public class ApiTest {
     }
 
     @Test
+    @Disabled
     void testCreateProduct() throws IOException {
 
         ProductDto dto = ProductDto.builder()

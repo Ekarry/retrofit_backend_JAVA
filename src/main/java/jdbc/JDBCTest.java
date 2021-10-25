@@ -1,5 +1,6 @@
+package jdbc;
 
-import dto.ProductDto;
+import retrofit.dto.ProductDto;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
